@@ -9,5 +9,8 @@ else
     exit 1
 fi
 
+utils/create-grid-library.sh
+
 echo "\033[32mOculus environment is installed properly"
+
 
