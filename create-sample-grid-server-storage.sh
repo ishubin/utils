@@ -9,7 +9,7 @@ utils/assemble-sample-project.sh
 echo 'Creating project zip archive'
 mkdir data/temp-archive
 cp oculus-sample-project/target/oculus-sample-project-jar-with-dependencies.jar data/temp-archive/sample-project-current.jar
-cp oculus-sample-project/src/main/resources/* data/temp-archive/
+cp oculus-sample-project/experior.properties data/temp-archive/
 cd data/temp-archive
 zip -R sample-project-current.zip *
 cd ../../
