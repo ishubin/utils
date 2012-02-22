@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<tags>
+  <tag name="OS" type="string">Windows</tag>
+  <tag name="Browsers" type="list">
+    <value>Internet Explorer</value>
+    <value>Chrome</value>
+    <value>Safari</value>
+  </tag>
+</tags>

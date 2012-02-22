@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<tags>
+  <tag name="OS" type="string">Linux</tag>
+  <tag name="Browsers" type="list">
+    <value>Firefox</value>
+    <value>Chrome</value>
+    <value>Opera</value>
+  </tag>
+</tags>

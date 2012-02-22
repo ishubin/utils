@@ -11,6 +11,8 @@ fi
 
 utils/create-grid-library.sh
 
+utils/create-sample-grid.sh
+
 echo "\033[32mOculus environment is installed properly"
 
 
