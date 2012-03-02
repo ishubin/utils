@@ -20,6 +20,9 @@ function removeLicenseHeader {
                 printf '%s\n' "$line" >> temp_file
             fi
         done < $1
+        if [[ -n $line ]]; then
+            printf '%s' "$line" >> temp_file
+        fi
     fi
 }
 
